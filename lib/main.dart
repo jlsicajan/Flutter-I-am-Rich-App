@@ -6,13 +6,12 @@ void main() {
     home: Scaffold(
       backgroundColor: Colors.blueGrey,
       appBar: AppBar(
-        title: Center(child: Text('I Am Batman')),
+        title: Center(child: Text('I Am Rich')),
         backgroundColor: Colors.blueGrey[900],
       ),
       body: Center(
         child: Image(
-          image: NetworkImage(
-              'https://i0.wp.com/fullcirclecinema.com/wp-content/uploads/2019/09/Untitled-1.png?resize=960%2C600&ssl=1'),
+          image: AssetImage('images/diamond.png'),
         ),
       ),
     ),
